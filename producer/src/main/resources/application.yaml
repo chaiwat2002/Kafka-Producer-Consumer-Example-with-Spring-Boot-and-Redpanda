@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: kafkakaffff
+
+
+app:
+  config:
+    kafka:
+      server: ${KAFKA_SERVER:localhost}:${PORT:29092}
+      topic: report-message
+
+
+server:
+  port: 8000

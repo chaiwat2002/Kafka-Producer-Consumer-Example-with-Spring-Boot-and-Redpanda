@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: kafkakareiei
+
+
+app:
+  config:
+    kafka:
+      server: ${KAFKA_SERVER:localhost}:${PORT:29092}
+      groupId: report-message-worker
+      topic: report-message
+      offset-reset: earliest
+
+
+server:
+  port: 8008
