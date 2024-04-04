@@ -3,15 +3,15 @@ This project demonstrates a simple Kafka producer and consumer setup using Sprin
 
 ## Key Components
 
-#### producer
+### producer
 - KafkaConfiguration.java: Contains Spring Beans for configuring both the Kafka producer and consumer.
 - KafkaComponent.java: Provides 'send' and 'consumerMessage' methods for producing and consuming Kafka messages, respectively.
 
-#### comsumer
+### comsumer
 - KafkaConfiguration.java: Similar to the producer, defines beans for Kafka consumer configuration.
 - KafkaComponent.java: Contains a KafkaListener method to receive and process messages from a specified Kafka topic.
 
-#### docker-compose.yml
+### docker-compose.yml
 - Defines the services for the project:
     - redpanda-0: The Redpanda (Kafka-compatible) server.
     - console: (Optional) Redpanda Console for cluster management.
