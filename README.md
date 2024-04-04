@@ -4,8 +4,8 @@ This project demonstrates a simple Kafka producer and consumer setup using Sprin
 ## Key Components
 
 #### producer
-    - KafkaConfiguration.java: Contains Spring Beans for configuring both the Kafka producer and consumer.
-    - KafkaComponent.java: Provides 'send' and 'consumerMessage' methods for producing and consuming Kafka messages, respectively.
+- KafkaConfiguration.java: Contains Spring Beans for configuring both the Kafka producer and consumer.
+- KafkaComponent.java: Provides 'send' and 'consumerMessage' methods for producing and consuming Kafka messages, respectively.
 
 #### comsumer
 - KafkaConfiguration.java: Similar to the producer, defines beans for Kafka consumer configuration.
