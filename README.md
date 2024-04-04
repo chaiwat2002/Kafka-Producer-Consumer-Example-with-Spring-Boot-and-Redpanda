@@ -36,7 +36,7 @@ This project demonstrates a simple Kafka producer and consumer setup using Sprin
 ## How to Run
 
 1. Start Redpanda:
-    docker compose up -d redpanda-0 console
+    - docker compose up -d redpanda-0 console
 
 2. Build and Run Applications:
     - Navigate to the producer directory and run ./mvnw package (or mvn) to build the producer application.
