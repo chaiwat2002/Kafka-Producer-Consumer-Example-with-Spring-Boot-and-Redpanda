@@ -60,7 +60,7 @@ services:
 
   producer-0:
     build:
-      context: .
+      context: ./producer
       dockerfile: Dockerfile
     image: kafka-producer:1.0
     restart: always
@@ -77,7 +77,7 @@ services:
 
   consumer-0:
     build:
-      context: .
+      context: ./consumer
       dockerfile: Dockerfile
     image: kafka-consumer:1.0
     restart: always
