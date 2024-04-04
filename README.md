@@ -39,9 +39,9 @@ This project demonstrates a simple Kafka producer and consumer setup using Sprin
     docker compose up -d redpanda-0 console
 
 2. Build and Run Applications:
-    Navigate to the producer directory and run ./mvnw package (or mvn) to build the producer application.
-    Navigate to the consumer directory and repeat the build process to build the consumer application.
-    Start the producer and consumer (the order doesn't matter, assuming your Docker Compose setup is running): java -jar kafkakaffff/build/libs/kafkakaffff-x.x.x.jar and similarly for the consumer application.
+    - Navigate to the producer directory and run ./mvnw package (or mvn) to build the producer application.
+    - Navigate to the consumer directory and repeat the build process to build the consumer application.
+    - Start the producer and consumer (the order doesn't matter, assuming your Docker Compose setup is running): java -jar producer/build/libs/producer-x.x.x.jar and similarly for the consumer application.
 
 ## Testing
 The producer's KafkaComponent has a send method. Use this to send messages to the configured Kafka topic.
