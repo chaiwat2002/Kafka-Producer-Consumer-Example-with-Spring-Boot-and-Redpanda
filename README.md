@@ -26,7 +26,8 @@ This project demonstrates a simple Kafka producer and consumer setup using Sprin
 - Docker and Docker Compose (for local testing/deployment)
 
 ## Configuration
-# The applications expect configuration properties in their application.properties (or .yml) files:
+
+ The applications expect configuration properties in their application.properties (or .yml) files:
 - app.config.kafka.server: The address of your Kafka broker (e.g., redpanda-0:9092)
 - app.config.kafka.topic: The Kafka topic for communication.
 - app.config.kafka.groupId: The Kafka consumer group ID.
